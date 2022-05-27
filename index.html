@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     
+     <title>Projeto Pixels Art</title>
+ </head>
+ <body>
+     <h1 id="title">Paleta de Cores</h1>
+     <div id="color-palette">
+        <button id="reroll-colors">Trocar Paleta de Cores</button><br>
+        <div class="color selected"style="background-color:black;"></div>
+        <div class="color"style="background-color:green;"></div>
+        <div class="color"style="background-color:red;"></div>
+        <div class="color"style="background-color:yellow;" ></div>
+     </div>
+     <section id="buttons">
+      <label for="#board-size"><strong>Tamanho da Tela:</strong></label>
+      <input type="number" min="1" max="50" id="board-size">  
+      <button id="generate-board">VQV</button>
+      <button id="clear-board"style="margin-left:20px;">Limpar Tela</button>
+     </section>   
+    <section id="pixel-board"></section>
+     <script src="script.js"></script>
+ </body>
+ </html>
